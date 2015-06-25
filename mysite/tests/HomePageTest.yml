@@ -1,0 +1,17 @@
+CarouselItem:
+  one:
+    Title: 'Title 1'
+    Image: 'assets/Uploads/image1.png'
+    Caption: 'Caption 1!  Here is a caption!'
+  two:
+    Title: 'Title 2'
+    Image: 'assets/Uploads/image2.png'
+    Caption: 'Caption 2!  Here is a caption!'
+  three:
+    Title: 'Title 3'
+    Image: 'assets/Uploads/image3.png'
+    Caption: 'Caption 3!  Here is a caption!'
+  four:
+    Title: 'Title 4'
+    Image: 'assets/Uploads/image4.png'
+    Caption: 'Caption 4!  Here is a caption!'

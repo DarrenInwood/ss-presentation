@@ -2,6 +2,8 @@
 
 class HomePageTest extends SapphireTest {
 	
+	protected static $fixture_file = 'mysite/tests/HomePageTest.yml';
+
 	// Make sure that URL home/carousel returns JSON containing
 	// three items.
 	// {
