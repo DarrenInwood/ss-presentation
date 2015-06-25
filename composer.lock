@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "504157e8fceea87e6a2973f503a0794c",
+    "hash": "b8992291524748a6a3e43a682d93599b",
     "packages": [
         {
             "name": "composer/installers",
@@ -272,6 +272,88 @@
                 "silverstripe"
             ],
             "time": "2015-05-28 06:59:11"
+        },
+        {
+            "name": "silverstripe/restfulserver",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-restfulserver.git",
+                "reference": "db4a70673b593c643323ed0411afb90eafa71bc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-restfulserver/zipball/db4a70673b593c643323ed0411afb90eafa71bc6",
+                "reference": "db4a70673b593c643323ed0411afb90eafa71bc6",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "3.*"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Hamish Friedlander",
+                    "email": "hamish@silverstripe.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sam Minnee",
+                    "email": "sam@silverstripe.com"
+                }
+            ],
+            "description": "Add a RESTful API to your SilverStripe application",
+            "keywords": [
+                "api",
+                "rest",
+                "silverstripe"
+            ],
+            "time": "2013-07-14 08:12:35"
+        },
+        {
+            "name": "silverstripe/userforms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-userforms.git",
+                "reference": "17bc3bce93c33de1eb5c2f056212e49445e0869e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/17bc3bce93c33de1eb5c2f056212e49445e0869e",
+                "reference": "17bc3bce93c33de1eb5c2f056212e49445e0869e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": ">=3.1.0",
+                "silverstripe/framework": ">=3.1.0"
+            },
+            "suggest": {
+                "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io"
+                }
+            ],
+            "description": "UserForms enables CMS users to create dynamic forms via a drag and drop interface and without getting involved in any PHP code",
+            "keywords": [
+                "silverstripe",
+                "userforms"
+            ],
+            "time": "2015-06-23 00:06:05"
         }
     ],
     "packages-dev": [
@@ -699,6 +781,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "electrolinux/phpquery": 20,
+        "silverstripe/userforms": 20,
+        "silverstripe/restfulserver": 20,
         "phpunit/phpunit": 0
     },
     "prefer-stable": false,

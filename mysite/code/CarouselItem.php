@@ -8,4 +8,6 @@ class CarouselItem extends DataObject {
 		'Caption' => 'Varchar(255)',
 	);
 
+	private static $api_access = true;
+
 }

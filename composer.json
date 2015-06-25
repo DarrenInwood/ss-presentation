@@ -6,7 +6,9 @@
 		"silverstripe/cms": "3.1.13",
 		"silverstripe/framework": "3.1.13",
 		"silverstripe-themes/simple": "*",
-		"electrolinux/phpquery": "dev-master"
+		"electrolinux/phpquery": "dev-master",
+		"silverstripe/userforms": "^2.0@dev",
+		"silverstripe/restfulserver": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
