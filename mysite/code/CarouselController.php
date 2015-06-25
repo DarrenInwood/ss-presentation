@@ -3,27 +3,15 @@
 class CarouselController extends Controller {
 	
 	public function index() {
-		return <<<JSON
-{
-	"items" : [
-        {
-            "title" : "Test 1",
-            "image" : "assets/Uploads/image1.png",
-            "caption" : "adsf asdf asdf 1"
-        },
-        {
-            "title" : "Test 2",
-            "image" : "assets/Uploads/image2.png",
-            "caption" : "adsf asdf asdf 2"
-        },
-        {
-            "title" : "Test 3",
-            "image" : "assets/Uploads/image3.png",
-            "caption" : "adsf asdf asdf 3"
-        }
-    ]
-}
-JSON;
+		$items = new ArrayList();
+		for ( $i = 1; $i <= 3; $i++ ) {
+			$item = new ArrayData(array());
+			$item->Title = "Title $i";
+			$item->Image = "assets/Uploads/image$i.png";
+			$item->Caption = "This is a caption $i";
+			$items->push($item);
+		}
+		return $items->renderWith('CarouselJSON');
 	}
 
 }
